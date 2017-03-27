@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Week9WebProject:war exploded">
+    <output-path>$PROJECT_DIR$/target/Week9WebProject</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Week9WebProject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax:javaee-web-api:7.0" />
+          <element id="library" level="project" name="Maven: Week9Exercise:Week9Exercise:1.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/Week9WebProject/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Week9WebProject/web/Web" />
+    </root>
+  </artifact>
+</component>
